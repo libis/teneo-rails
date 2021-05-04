@@ -117,7 +117,10 @@ gem 'order_as_specified'
 gem 'symbolized'
 
 # Adds extended functionality to Activerecord Postgres implementation (https://github.com/georgekaraszi/ActiveRecordExtended)
-gem 'active_record_extended', git: 'https://github.com/GeorgeKaraszi/ActiveRecordExtended'
+gem 'active_record_extended' #, git: 'https://github.com/GeorgeKaraszi/ActiveRecordExtended'
 
 # Enum-like behavior for Ruby. (http://github.com/dblock/ruby-enum)
 gem 'ruby-enum'
+
+# Oracle client
+gem 'ruby-oci8'
